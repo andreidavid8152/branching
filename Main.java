@@ -8,11 +8,12 @@ public class Main{
 
         // Saludo
         Saludo saludo = new Saludo();
-        System.out.println(saludo.generarSaludo("Grupo"));
-        System.out.println("Version certificada v1.0.0");
+        System.out.println(saludo.generarSaludo("Mundo", "en"));
+        System.out.println(saludo.generarSaludo("Mundo", "es"));
+        System.out.println(saludo.generarSaludo("Mundo", "fr"));
 
         // Despedida
         Despedida despedida = new Despedida();
-        System.out.println(despedida.generarDespedida("Mundo"));
+        System.out.println(despedida.generarDespedida("Mundo"));        
     }
 }
